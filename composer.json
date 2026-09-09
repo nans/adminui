@@ -1,0 +1,23 @@
+{
+    "name": "nans/adminui",
+    "description": "Magento module responsible for improve user experience in admin panel",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": "~8.2.0||~8.3.0||~8.4.0||~8.5.0",
+        "magento/framework": "*",
+        "magento/module-layered-navigation": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nans\\Adminui\\": ""
+        }
+    }
+}
+
