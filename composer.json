@@ -5,6 +5,16 @@
     "license": [
         "MIT"
     ],
+    "keywords": [
+        "magento 2",
+        "adobe commerce"
+    ],
+    "authors": [
+        {
+            "name": "Andrew",
+            "role": "Developer"
+        }
+    ],
     "version": "1.0.0",
     "require": {
         "php": "~8.2.0||~8.3.0||~8.4.0||~8.5.0",
